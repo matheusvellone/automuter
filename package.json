@@ -1,0 +1,25 @@
+{
+  "name": "automuter",
+  "version": "1.0.0",
+  "description": "Chrome extension to automute any tab when current tab is playing sound",
+  "scripts": {
+    "build": "webpack build",
+    "build-watch": "webpack watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusvellone/automuter.git"
+  },
+  "keywords": [],
+  "author": "Matheus Vellone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheusvellone/automuter/issues"
+  },
+  "homepage": "https://github.com/matheusvellone/automuter#readme",
+  "devDependencies": {
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-crx": "^1.0.8"
+  }
+}
